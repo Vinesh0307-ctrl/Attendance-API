@@ -2,8 +2,6 @@
 
 A FastAPI + MongoDB service for recording employee attendance (punch-in / punch-out, manual corrections) and reporting on it (monthly stats, department summaries, a late leaderboard and a daily trend).
 
-All code is in `app/main.py`. The contract is in `openapi.yaml` and the stored data is described in `DATA_MODEL.md`.
-
 ## Setup
 
 Requires Python 3.10+ and MongoDB 6.0 or newer (tested design target: 7.0)
